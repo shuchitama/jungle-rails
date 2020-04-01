@@ -4,10 +4,10 @@
     <h1>Order #<%= @order.id %></h1>
   </header>
 
-  <div class="order-summary jumbotron">
-    <h4>Thank you for your order!</h4>
-  </div>
+    <h4>Thank you for your order! Here is your order summary:</h4>
 
-  <%= link_to "Continue Shopping", root_path, class: 'btn btn-lg btn-primary' %>
+  <% @order.line_items.each do |line_item| %>
+   <%= render 'line_item', product: line_item.product, quantity: line_item.quantity %>
+  <% end %>
 
 </section>
