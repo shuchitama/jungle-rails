@@ -1,7 +1,14 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 4.2.
 
+## Features
+
+- Users can sign up for an account, log in and log out
+- Visitors and registered users can see all the products, or filter by category
+- Visitors and registered users can add and remove items to/from their cart, and pay using a Stripe account
+- Admins can access the dashboard that lists the inventory, and can add/remove products
+- Admins can add new categories
 
 ## Setup
 
@@ -13,6 +20,26 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 6. Sign up for a Stripe account
 7. Put Stripe (test) keys into appropriate .env vars
 8. Run `bin/rails s -b 0.0.0.0` to start the server
+
+## Screenshots
+
+### Signup form
+
+!["Signup form"](https://github.com/shuchitama/jungle-rails/blob/master/docs/signup_form.png?raw=true)
+
+### Home Page
+
+!["Home page"](https://github.com/shuchitama/jungle-rails/blob/master/docs/home_page.png?raw=true)
+
+### Cart View
+
+!["Cart View"](https://github.com/shuchitama/jungle-rails/blob/master/docs/cart_view.png?raw=true)
+
+### Admin products view
+
+!["Admin products view"](https://github.com/shuchitama/jungle-rails/blob/master/docs/admin_products_view.png?raw=true)
+
+###
 
 ## Stripe Testing
 
