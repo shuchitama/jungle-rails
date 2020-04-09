@@ -33,7 +33,11 @@ A mini e-commerce application built with Rails 4.2.
 
 ### Cart View
 
-!["Cart View"](https://github.com/shuchitama/jungle-rails/blob/master/docs/cart_view.png?raw=true)
+!["Cart view"](https://github.com/shuchitama/jungle-rails/blob/master/docs/cart_view.png?raw=true)
+
+### Order placed
+
+!["Order placed"](https://github.com/shuchitama/jungle-rails/blob/master/docs/order_placed.png?raw=true)
 
 ### Admin products view
 
